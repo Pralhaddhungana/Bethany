@@ -1,0 +1,155 @@
+/* homepage */
+
+#home-page-wrap .navbar .col-2 {
+    background-color: mediumseagreen;
+}
+
+#home-page-wrap .background-image-wrap {
+    background-color: black;
+}
+
+#home-page-wrap .background-image-wrap .img-fluid {
+    opacity: 0.5;
+}
+
+#home-page-wrap .logo-wrap .bethany-logo-image {
+    width: 100%;
+}
+
+#home-page-wrap .nav-bar-wrap {
+    top: 10%;
+    left: 7.5%;
+    width: 85%;
+}
+
+#home-page-wrap .nav-bar-nav {
+    list-style-type: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+#home-page-wrap .nav-bar-nav .nav-item {
+    display: inline;
+    padding-left: 15px;
+    font-size: 12px;
+}
+
+#home-page-wrap .nav-bar-nav .nav-item a {
+    color: black;
+}
+
+#home-page-wrap .nv-itm-col {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#home-page-wrap .nav-bar-wrap .gsb {
+    background-color: unset;
+    display: flex;
+    align-items: center;
+}
+
+#home-page-wrap .get-started-btn-wrap {
+    width: 100%;
+}
+
+#home-page-wrap .get-started-btn {
+    border: none;
+    border-radius: 20px;
+    width: 95%;
+    background-color: mediumseagreen;
+    height: 40px;
+    color: white;
+}
+
+#home-page-wrap .overlay .overlay-content-wrap {
+    top: 50%;
+    left: 20%;
+    text-align: center;
+    color: white;
+}
+
+#home-page-wrap .overlay .overlay-content-wrap .get-started-btn {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: transparent;
+    border: 2px solid white;
+}
+
+#home-page-wrap .overlay .overlay-content-wrap .get-started-btn-wrap {
+    display: flex;
+    justify-content: space-around;
+    margin: 7% 0;
+}
+
+#home-page-wrap .overlay-content-wrap .text-wrap .text-large {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#home-page-wrap .overlay-content-wrap .text-wrap .text-small {
+    font-size: 14px;
+}
+
+#home-page-wrap .testimonial-wrap {
+    background-color: gainsboro;
+    margin: 20px 0;
+    padding: 20px 0;
+}
+
+#home-page-wrap .testimonial-wrap .tstmonial-header-wrap {
+    margin-bottom: 20px;
+}
+
+#home-page-wrap .testimonial-wrap .tstmonial-header-wrap::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 2px;
+    background-color: mediumseagreen;
+    margin-top: 5px;
+}
+
+#home-page-wrap .tstmonial-content-slick-wrapper .slick-box-image {
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    margin: auto;
+}
+
+#home-page-wrap .tstmonial-content-slick-wrapper {
+    text-align: center;
+}
+
+#home-page-wrap .tstmonial-content-slick-wrapper .slick-box {
+    background-color: white;
+    margin: 10px 30px;
+    padding: 30px 20px;
+}
+
+#home-page-wrap .tstmonial-content-slick-wrapper .slick-box .slick-box-comment {
+    font-size: 12px;
+}
+
+#home-page-wrap .tstmonial-content-slick-wrapper .slick-box .slick-box-name {
+    font-size: 14px;
+    font-weight: bold;
+    margin: auto;
+}
+
+#home-page-wrap .tstmonial-content-slick-wrapper .slick-box .slick-box-post {
+    font-size: 12px;
+    color: gray;
+}
+
+#home-page-wrap .tstmonial-content-slick-wrapper .slick-prev {
+    display: none !important;
+}
+
+#home-page-wrap .tstmonial-content-slick-wrapper .slick-next {
+    display: none !important;
+}

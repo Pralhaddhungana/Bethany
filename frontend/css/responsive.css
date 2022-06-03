@@ -1,0 +1,196 @@
+/* media for small screen */
+@media only screen and (max-width:750px) {
+
+    #home-page-wrap .navbar {
+        display: none;
+    }
+
+    #home-page-wrap .background-image-wrap .background-image .img-fluid {
+        height: 300px;
+        object-fit: cover;
+        object-position: 39%;
+    }
+
+    #home-page-wrap .overlay .overlay-content-wrap {
+        top: 30%;
+        left: 0;
+    }
+
+    #home-page-wrap .overlay .overlay-content-wrap .get-started-btn {
+        font-size: 14px;
+    }
+
+    #home-page-wrap .overlay-content-wrap .text-wrap .text-large {
+        font-size: 20px;
+    }
+
+    #home-page-wrap .overlay-content-wrap .text-wrap .text-small {
+        font-size: 11px;
+    }
+
+    #home-page-wrap .testimonial-wrap .tstmonial-header-wrap {
+        width: 100%;
+        text-align: center;
+    }
+
+    #home-page-wrap .testimonial-wrap {
+        padding: 30px 0;
+    }
+
+    #home-page-wrap .testimonial-wrap .tstmonial-header {
+        font-size: 18px;
+        margin: auto;
+    }
+
+    #home-page-wrap .testimonial-wrap .tstmonial-content {
+        font-size: 12px;
+    }
+
+    #home-page-wrap .tstmonial-content-slick-wrapper .slick-box .slick-box-comment {
+        font-size: 10px;
+    }
+
+    #home-page-wrap .fade-nav-bar .logo-wrap .bethany-logo-image {
+        width: 100px;
+    }
+
+    /* #home-page-wrap .fade-nav-bar .nv-itm-col {
+        background-color: aliceblue;
+    } */
+
+    #home-page-wrap .overlay .fade-nav-bar {
+        background-color: mediumseagreen;
+        top: 0;
+        width: 99.5%;
+    }
+
+    #home-page-wrap .fade-nav-bar .nv-itm-col {
+        justify-content: end;
+    }
+
+    #home-page-wrap .fade-nav-bar .nv-itm-col .dropdown-menu {
+        text-align: center;
+    }
+
+    #home-page-wrap .fade-nav-bar .nv-itm-col .menu-item-dropdown {
+        float: unset !important;
+    }
+
+    #home-page-wrap .fade-nav-bar .nv-itm-col .menu-item-dropdown a {
+        text-decoration: none !important;
+        color: #000;
+    }
+
+
+
+    #home-page-wrap .overlay .fade-nav-bar .dropdown .btn {
+        background: transparent;
+        border: none;
+        width: 50px;
+    }
+
+    #home-page-wrap .overlay .fade-nav-bar .dropdown .btn::after {
+        content: unset;
+    }
+
+
+
+}
+
+
+/* media for tablet screen */
+@media only screen and (max-width:1020px) and (min-width:760px) {
+    #home-page-wrap .nav-bar-wrap {
+        width: 99%;
+        left: 1%;
+        font-size: 12px;
+    }
+
+    #home-page-wrap .overlay .fade-nav-bar {
+        display: none;
+    }
+
+    #home-page-wrap .nav-bar-wrap .navbar {
+        line-height: 30px;
+    }
+
+    #home-page-wrap .nav-bar-nav .nav-item {
+        font-size: 10px;
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+    }
+
+    #home-page-wrap .nav-bar-nav .nav-item a {
+        padding: 0 9px;
+    }
+
+    #home-page-wrap .nav-bar-nav .navbar {
+        font-size: 14px;
+    }
+
+    #home-page-wrap .nav-bar-wrap .navbar .gsb .get-started-btn {
+        width: 90%;
+        height: 30px;
+    }
+
+    #home-page-wrap .overlay .overlay-content-wrap {
+        left: 13%;
+        top: 35%;
+    }
+
+    #home-page-wrap .overlay-content-wrap .text-wrap .text-large {
+        font-size: 30px;
+    }
+
+    #home-page-wrap .overlay-content-wrap .text-wrap .text-small {
+        font-size: 12px;
+    }
+
+    #home-page-wrap .overlay .overlay-content-wrap .get-started-btn-wrap {
+        margin: 5% 0;
+    }
+
+    #home-page-wrap .tstmonial-content-slick-wrapper .slick-box {
+        margin: 0 10px;
+        padding: 0 10px;
+        padding-top: 10px;
+    }
+
+    #home-page-wrap .tstmonial-content-slick-wrapper .slick-box-image {
+        border-radius: 50%;
+        height: 100px;
+        margin: auto;
+    }
+}
+
+/* media for laptop screen */
+
+@media only screen and (max-width:1400px) and (min-width:1024px) {
+
+    #home-page-wrap .nav-bar-nav .nav-item {
+        padding-left: unset;
+    }
+
+    #home-page-wrap .overlay .fade-nav-bar {
+        display: none;
+    }
+
+    #home-page-wrap .overlay .overlay-content-wrap {
+        top: 50%;
+        left: 20%;
+    }
+
+}
+
+
+@media only screen and (min-width:1430px) {
+    #home-page-wrap .overlay .overlay-content-wrap {
+        top: 45%;
+        left: 25%;
+    }
+
+    #home-page-wrap .overlay .fade-nav-bar {
+        display: none;
+    }
+}

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bethany</title>
+
+    <link rel="stylesheet" href="frontend/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="frontend/slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="frontend/bootstrap-4.6.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="frontend/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="frontend/css/style.css">
+    <link rel="stylesheet" href="frontend/css/responsive.css">
+</head>
+
+<body>
+    <section id="home-page-wrap">
+
+        <section class="background-image-wrap position-relative">
+            <div class="background-image">
+                <img src="frontend/assets/background-image/Bethany-background.jpg" class="img-fluid"
+                    alt="bethany-background-image">
+            </div>
+            <div class="overlay">
+                <div class="nav-bar-wrap position-absolute">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <nav class="navbar p-0 bg-white">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <div class="logo-wrap p-2">
+                                                <a href="homepage.html" class="logo-image-anchor">
+                                                    <img src="frontend/assets/logo/Bethany-logo.png"
+                                                        class="bethany-logo-image" alt="bethany-logo">
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-8 nv-itm-col">
+                                            <ul class="nav-bar-nav p-0 mb-0">
+                                                <li class="nav-item"><a href="#" class="nav-link"> HOME</a></li>
+                                                <li class="nav-item"><a href="#" class="nav-link"> ABOUT</a></li>
+                                                <li class="nav-item"><a href="#" class="nav-link"> SERVICES</a></li>
+                                                <li class="nav-item"><a href="#" class="nav-link"> PORTFOLIO</a></li>
+                                                <li class="nav-item"><a href="#" class="nav-link"> TEAM</a></li>
+                                                <li class="nav-item">
+                                                    <div class="dropdown">
+                                                        <a class="nav-link dropdown-toggle p-0" href="#"
+                                                            id="dropdown-id" data-toggle="dropdown">DROP DOWN</a>
+                                                        <div class="dropdown-menu" aria-labelledby="dropdown-id">
+                                                            <a class="dropdown-item" href="#">dropdown list 1</a>
+                                                            <a class="dropdown-item" href="#">dropdown list 2</a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="nav-item"><a href="#" class="nav-link"> CONTACT</a></li>
+
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-2 gsb">
+                                            <div class="get-started-btn-wrap">
+                                                <button class="get-started-btn">Get Started</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="overlay-content-wrap position-absolute">
+                    <div class="text-wrap">
+                        <p class="text-large">Your New Online Presence with Bethany</p>
+                        <p class="text-small">WE ARE TEAM OF TALENTED DESIGNERS MAKING WEBSITES WITH BOOTSTRAP</p>
+                    </div>
+                    <div class="get-started-btn-wrap">
+                        <button class="get-started-btn">Get Started</button>
+                    </div>
+                </div>
+                <section class="fade-nav-bar position-absolute">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-6">
+                                <div class="logo-wrap p-2">
+                                    <a href="homepage.html" class="logo-image-anchor">
+                                        <img src="frontend/assets/logo/Bethany-logo.png" class="bethany-logo-image"
+                                            alt="bethany-logo">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 nv-itm-col">
+                                <div class="dropdown">
+                                    <button type="button" class="btn btn-primary dropdown-toggle" id="menu-btn"
+                                        data-toggle="dropdown" onclick="menuDropdown()">
+                                        <span><i class="fa fa-bars" aria-hidden="true"></i></span>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right" id="menu-drop">
+                                        <a class="dropdown-item" href="#">Home</a>
+                                        <a class="dropdown-item" href="#">About</a>
+                                        <a class="dropdown-item" href="#">Services</a>
+                                        <a class="dropdown-item" href="#">Portfolio</a>
+                                        <a class="dropdown-item" href="#">Team</a>
+                                        <a class="dropdown-item p-0" href="#">
+                                            <div class="dropdown dropleft float-right menu-item-dropdown">
+                                                <a type="button" class="dropdown-toggle" data-toggle="dropdown"
+                                                    onclick="listDropdown()">
+                                                    Drop down
+                                                </a>
+                                                <div class="dropdown-menu" id="second-menu-drop">
+                                                    <a class="dropdown-item" href="#">Link 1</a>
+                                                    <a class="dropdown-item" href="#">Link 2</a>
+                                                    <a class="dropdown-item" href="#">Link 3</a>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a class="dropdown-item" href="#">Contact</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+        </section>
+
+
+
+
+
+
+        <section class="testimonial-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4 col-lg-4 col">
+                        <div class="tstmonial-header-wrap">
+                            <h3 class="tstmonial-header">TESTIMONIALS</h3>
+                        </div>
+                        <div class="tstmonial-content">
+                            <p class="tstmonial-content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                At ut veritatis error?
+                                Accusantium, voluptates nam? Officia, ipsum quis. In asperiores voluptates qui unde
+                                dolore ducimus facilis illum beatae sunt earum?</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-8 col-lg-8 col">
+                        <div class="tstmonial-content-slick-wrapper">
+
+                            <div class="slick-box">
+                                <p class="slick-box-comment">"Lorem ipsum, dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Cumque dolorum debitis, odit accusantium accusamus iste nulla ipsum sunt
+                                    adipisci
+                                    eum, aliquam atque incidunt impedit officia? Neque rem enim velit minus."</p>
+                                <img src="frontend/assets/DP/love.jpg" alt="love-image" class="slick-box-image mb-3">
+                                <p class="slick-box-name">Amber Heard</p>
+                                <p class="slick-box-post">Freelancer</p>
+                            </div>
+
+                            <div class="slick-box">
+                                <p class="slick-box-comment">"Lorem ipsum, dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Cumque dolorum debitis, odit accusantium accusamus iste nulla ipsum sunt
+                                    adipisci
+                                    eum, aliquam atque incidunt impedit officia? Neque rem enim velit minus."</p>
+                                <img src="frontend/assets/DP/love.jpg" alt="love-image" class="slick-box-image mb-3">
+                                <p class="slick-box-name">Amber Heard</p>
+                                <p class="slick-box-post">Freelancer</p>
+                            </div>
+
+                            <div class="slick-box">
+                                <p class="slick-box-comment">"Lorem ipsum, dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Cumque dolorum debitis, odit accusantium accusamus iste nulla ipsum sunt
+                                    adipisci
+                                    eum, aliquam atque incidunt impedit officia? Neque rem enim velit minus."</p>
+                                <img src="frontend/assets/DP/love.jpg" alt="love-image" class="slick-box-image mb-3">
+                                <p class="slick-box-name">Amber Heard</p>
+                                <p class="slick-box-post">Freelancer</p>
+                            </div>
+
+                            <div class="slick-box">
+                                <p class="slick-box-comment">"Lorem ipsum, dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Cumque dolorum debitis, odit accusantium accusamus iste nulla ipsum sunt
+                                    adipisci
+                                    eum, aliquam atque incidunt impedit officia? Neque rem enim velit minus."</p>
+                                <img src="frontend/assets/DP/love.jpg" alt="love-image" class="slick-box-image mb-3">
+                                <p class="slick-box-name">Amber Heard</p>
+                                <p class="slick-box-post">Freelancer</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+    </section>
+
+
+
+
+    <script src="frontend/jquery-3.5.1/jquery.js"></script>
+    <script src="frontend/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="frontend/bootstrap-4.6.1-dist/js/bootstrap.min.js"></script>
+    <script src="frontend/jquery/query.js"></script>
+</body>
+
+</html>
